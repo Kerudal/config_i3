@@ -46,7 +46,7 @@ $ exit       #goes back to your default
 Now you are ready to use zsh, however it is possible to make some personnal configuration by making changes in the file *.zshrc* 
 
 
-Once you have installed the ZSH shell, you should install **Oh my ZSH**. It offers a large variety of theme to install for your terminal : 
+Once you have installed the zsh shell, you should install **Oh my ZSH**. It offers a large variety of theme to install for your terminal : 
 ```zsh 
 cd
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
@@ -76,3 +76,4 @@ And in the code you will find **ZSH_THEME="put_the_name_of_the_theme_you_want"**
 ```
 ZSH_THEME="agnoster"
 ```
+This[website](https://github.com/robbyrussell/oh-my-zsh)has a list of all the themes you could install on oh my zsh 
