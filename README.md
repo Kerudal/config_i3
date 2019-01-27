@@ -33,7 +33,7 @@ sudo apt install zsh
 
 To change your default shell you need to use : 
 ```bash
-$ chsh --shell /bin/zsh usernam  
+$ chsh --shell /bin/zsh <username>        
 ```
 It will then ask your password 
 However you need to restar your computer for it to apply or exit i3 
