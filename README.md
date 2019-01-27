@@ -78,3 +78,19 @@ ZSH_THEME="agnoster"
 ```
 This [ website ](https://github.com/robbyrussell/oh-my-zsh)has a list of all the themes you could install on oh my zsh. Here is a [ list ](https://github.com/robbyrussell/oh-my-zsh/wiki/Themes) of screebshots of the different type of theme
 This [ website ](https://gist.github.com/renshuki/3cf3de6e7f00fa7e744a)  helped me a lot 
+
+However be carful if you install termiator (like shown in [ website ](https://gist.github.com/renshuki/3cf3de6e7f00fa7e744a) ) 
+```zsh 
+sudo apt-get install terminator
+```
+you can have a terminal that is very different from the one you had before. First of all it only changes the i3-sensible-terminal and not the gnome-terminal. To remove it you only have to type : 
+```zsh 
+sudo apt purge terminator
+```
+To get information on the use of terminator you can type :
+```zsh 
+apt search terminator 
+```
+and it will give you : multiple GNOME terminals in one window
+ 
+
