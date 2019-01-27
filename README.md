@@ -26,7 +26,7 @@ $ cat /etc/shells
 ```
 
 In this example i'll be using *zsh shell*. 
-To install the shell you need to use **apt install ** : 
+To install the shell you need to use ** apt install ** : 
 ```bash 
 sudo apt install zsh 
 ```
