@@ -1,5 +1,3 @@
-# config_i3
-
 # Configure your i3 
 ## i3 config: 
 When you install i3, you will have a file called config, where you can make all the changes you want so it fits your needs 
