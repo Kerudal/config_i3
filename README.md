@@ -77,9 +77,9 @@ And in the code you will find **ZSH_THEME="put_the_name_of_the_theme_you_want"**
 ZSH_THEME="agnoster"
 ```
 
-Also one of the great thing during the installation of oh my zsh is that it **keeps the previous config** in another file name .zshrc.pre-oh-my-zsh. The current one used, keeps the same name **.zshrc** 
+One of the great thing during the installation of oh my zsh is that it **keeps the previous config** in another file name .zshrc.pre-oh-my-zsh. So when they change the config to match the oh my zsh, it doens't erase the ones you made previously and enable the programm to keep the same name **.zshrc** 
 
-You can pu alias in the configuration for commands that are to long or that you use very ofter with : 
+You can put alias in the configuration for commands that are to long or that you use very ofter with : 
 ```
 alias zshconfig="mate ~/.zshrc"
 ```
