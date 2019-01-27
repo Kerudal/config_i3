@@ -35,13 +35,14 @@ To change your default shell you need to use :
 ```bash
 $ chsh --shell /bin/zsh <username>        
 ```
-It will then ask your password 
-However you need to restar your computer for it to apply or exit i3 
+It will then ask your password. However you need to restart your computer for it to apply the change or exit i3 
 
-And to switch between shell, you just need to type : 
+To switch between shell, you just need to type : 
 ```bash 
 $ /bin/zsh
+$ exit       #goes back to your default 
 ```
+
 Now you are ready to use zsh, however it is possible to make some personnal configuration by making changes in the file *.zshrc* 
 
 
