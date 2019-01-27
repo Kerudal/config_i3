@@ -62,7 +62,7 @@ mkdir -p .config/fontconfig/conf.d #if directory doesn't exists
 You can clean the cash : 
 ```zsh 
 fc-cache -vf ~/.fonts/
-
+```
 Move the configuration file 
 ```zsh 
 mv 10-powerline-symbols.conf ~/.config/fontconfig/conf.d/
