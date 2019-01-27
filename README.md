@@ -79,7 +79,7 @@ ZSH_THEME="agnoster"
 This [ website ](https://github.com/robbyrussell/oh-my-zsh)has a list of all the themes you could install on oh my zsh. Here is a [ list ](https://github.com/robbyrussell/oh-my-zsh/wiki/Themes) of screebshots of the different type of theme
 This [ website ](https://gist.github.com/renshuki/3cf3de6e7f00fa7e744a)  helped me a lot 
 
-However be carful if you install termiator (like shown in [ website ](https://gist.github.com/renshuki/3cf3de6e7f00fa7e744a) ) 
+However be carful if you install termiator (like shown in this [ website ](https://gist.github.com/renshuki/3cf3de6e7f00fa7e744a) ) 
 ```zsh 
 sudo apt-get install terminator
 ```
