@@ -1,6 +1,54 @@
 # config_i3
 
-# Change your shell : 
+## Configure your i3 
+# i3 config: 
+When you install i3, you will have a file called config, where you can make all the changes you want so it fits your needs 
+To access the file you type : 
+``` bash 
+cd ~/.i3      # you have to file config and config.save
+nano config 
+```
+As a precation, you should save *config* in a draft somwehere else before making some modifications, so that if you ever make a mistake in the commands you added or changed you have a **backup**.
+
+Once you have the file, you can make all the changes you want. All those commande can be put in action with the button Mod1 or $mod1 that you set during your first use of i3. 
+
+For example : 
+```
+bindsym Mod1+Return exec gnome-terminal
+```
+* Mod1+Return is the shortcut 
+* exec gnome-terminal  is the action 
+* bindsym enable the command 
+
+At the beginning of the [ i3 guide ](https://i3wm.org/docs/userguide.html) you can find explanation and other commands that can be put in place to match your use. 
+
+# i3 bar : 
+YOu can personnalize a bar in i3 with all the informations you want with **i3 bar** but you have to declare it in the i3 config with : 
+```
+bar {
+        status_command i3blocks -c ~/.config/i3/i3blocks.conf   # the location of the i3block.config 
+        tray_output primary
+        position top
+ ```
+ In my case i created the i3block.config file with : 
+ ```
+ touch i3block.config
+ ```
+ The location of the file is not important, just put it somwhere that makes sens to you. 
+ In this file you can now add the commands that you want. Here is an example of a command : 
+ ```
+[time]
+command=echo -n "Time : "; date '+%a, %d %b %H:%M' 
+interval=5
+ ```
+You have a [ i3blocks-contrib ](https://github.com/vivien/i3blocks-contrib) that has plenty of command that you can add to your i3bar.config 
+To do so you need to do : 
+* copy the file that interest you 
+* change the rights with 'chmod +x <name of file>'
+* copy the command given to you to put in the i3bar.config and change the line 'command=$SCRIPT_DIR/battery' to match you directory 
+ 
+
+## Change your shell : 
 In linux it is possible to change the type of shell you're using. Here is the liste of the **5 most frequently used shells for Linux** : 
 * Bash 
 * Tcsh 
