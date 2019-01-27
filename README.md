@@ -76,4 +76,4 @@ And in the code you will find **ZSH_THEME="put_the_name_of_the_theme_you_want"**
 ```
 ZSH_THEME="agnoster"
 ```
-This[website](https://github.com/robbyrussell/oh-my-zsh)has a list of all the themes you could install on oh my zsh 
+This [website] (https://github.com/robbyrussell/oh-my-zsh)has a list of all the themes you could install on oh my zsh 
