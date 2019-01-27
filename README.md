@@ -25,7 +25,7 @@ $ cat /etc/shells
 /usr/bin/zsh
 ```
 
-In this example i'll be using *Zsh Shell*. 
+In this example i'll be using *zsh shell*. 
 To install the shell you need to use **apt install ** : 
 ```bash 
 sudo apt install zsh 
