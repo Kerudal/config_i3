@@ -50,3 +50,28 @@ Once you have installed the ZSH shell, you should install **Oh my ZSH**. It offe
 cd
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ``` 
+You now have to install the powerline font : 
+```zsh
+cd
+wget https://github.com/powerline/powerline/raw/develop/font/PowerlineSymbols.otf
+wget https://github.com/powerline/powerline/raw/develop/font/10-powerline-symbols.conf
+mkdir ~/.fonts/
+mv PowerlineSymbols.otf ~/.fonts/
+mkdir -p .config/fontconfig/conf.d #if directory doesn't exists
+```
+You can clean the cash : 
+```zsh 
+fc-cache -vf ~/.fonts/
+
+Move the configuration file 
+```zsh 
+mv 10-powerline-symbols.conf ~/.config/fontconfig/conf.d/
+```
+You may now change the **theme** by opening the file 
+```zsh 
+nano ~/.zshrc 
+```
+And in the code you will find **ZSH_THEME="put_the_name_of_the_theme_you_want"**, here is an example : 
+```
+ZSH_THEME="agnoster"
+```
