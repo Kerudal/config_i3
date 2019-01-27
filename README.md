@@ -44,3 +44,9 @@ $ /bin/zsh
 ```
 Now you are ready to use zsh, however it is possible to make some personnal configuration by making changes in the file *.zshrc* 
 
+
+Once you have installed the ZSH shell, you should install **Oh my ZSH**. It offers a large variety of theme to install for your terminal : 
+```zsh 
+cd
+sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+``` 
