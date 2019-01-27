@@ -1,7 +1,7 @@
 # config_i3
 
-## Configure your i3 
-# i3 config: 
+# Configure your i3 
+## i3 config: 
 When you install i3, you will have a file called config, where you can make all the changes you want so it fits your needs 
 To access the file you type : 
 ``` bash 
@@ -22,7 +22,7 @@ bindsym Mod1+Return exec gnome-terminal
 
 At the beginning of the [ i3 guide ](https://i3wm.org/docs/userguide.html) you can find explanation and other commands that can be put in place to match your use. 
 
-# i3 bar : 
+## i3 bar : 
 YOu can personnalize a bar in i3 with all the informations you want with **i3 bar** but you have to declare it in the i3 config with : 
 ```
 bar {
