@@ -9,7 +9,7 @@ In linux it is possible to change the type of shell you're using. Here is the li
 * Fish 
 
 
-To knwo the shell you are using right know just type : 
+To knwo the shell you are using right now just type : 
 ```bash 
 $ echo $0 
 ```
