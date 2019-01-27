@@ -26,17 +26,21 @@ $ cat /etc/shells
 ```
 
 In this example i'll be using *Zsh Shell*. 
+To install the shell you need to use **apt install ** : 
+```bash 
+sudo apt install zsh 
+```
 
 To change your default shell you need to use : 
 ```bash
-chsh --shell /bin/zsh usernam  
+$ chsh --shell /bin/zsh usernam  
 ```
 It will then ask your password 
 However i think you need to restar your computer for it to apply 
 
 And to switch between shell, you just need to type : 
 ```bash 
-/bin/zsh
+$ /bin/zsh
 ```
 
 
